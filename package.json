@@ -1,0 +1,22 @@
+{
+  "name": "linkedin-oauth-helper",
+  "version": "1.0.0",
+  "description": "A helper script to handle LinkedIn OAuth 2.0 authentication: get the access_token and userId",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "open": "^8.4.0",
+    "request": "^2.88.2"
+  }
+}
