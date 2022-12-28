@@ -1,5 +1,5 @@
 # linkedin-oauth-helper
-This is a helper script to handle LinkedIn OAuth. For a detailed, step-by-step guide, please refer to the [LinkedIn OAuth guide](http://www.linkedin.com/developer/apps).
+This is a helper script to handle LinkedIn OAuth. For a detailed, step-by-step guide, please refer to this [article I wrote](https://www.azaytek.com/how-to-publish-to-linkedin-via-api/).
 If you found this repository useful, please consider giving it a star ⭐ on GitHub. This helps to promote the project and show your support.
 
 ## How it works
