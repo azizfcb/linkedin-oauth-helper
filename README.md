@@ -3,12 +3,12 @@ This is a helper script to handle LinkedIn OAuth. For a detailed, step-by-step g
 If you found this repository useful, please consider giving it a star ⭐ on GitHub. This helps to promote the project and show your support.
 
 ## How it works
-The script check if there's a valid access token in local json file. If it exists, it uses it to do an API call to get the corresponding user ID. If the API call is successful, it prints bot: the user access token & ID &. If it fails, it starts the OAuth process by executing the following steps:
+The script check if there's a valid access token in a local json file. If it exists, it uses it to do an API call to get the corresponding user ID. If the API call is successful, it prints both: the user access token & ID &. If it fails, it starts the OAuth process by executing the following steps:
 - It builds the authorization url 
 - It launches the default user's browser and redirect it to the previously built authorization url to handle the authorization process.  
 - The user will have to log in &/or proceed by allowing access.
 - Once user proceeds, the script will handle the callback where authorization code is sent (using a minimalist express server). 
-- Once the script gets the authorization code, it uses it to do an 2 API requests: get an access token and the corresponding user ID.
+- Once the script gets the authorization code, it uses it to do 2 API requests: get an access token and the corresponding user ID.
 Once finished, it saves the access token to a local file, and prints the result to the browser & the console.
 
 ## Requirements
