@@ -13,7 +13,7 @@ Once finished, it saves the access token to a local file, and prints the result 
 
 ## Requirements
 Before using this script, make sure to copy the ```env.example``` file to ```.env```.
-Once you've done that, you need to create a LinkedIn app and get the client id and secret, and then update the ```.en```v file with these variables.
+Once you've done that, you need to create a LinkedIn app and get the client id and secret, and then update the ```.env``` file with these variables.
 You can do it here: https://www.linkedin.com/developer/apps
 
 Note: please make sure to have the same ```REDIRECT_URI``` value configured in both LinkedIn app's page and this script
